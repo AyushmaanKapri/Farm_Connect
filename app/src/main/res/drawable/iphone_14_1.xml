@@ -1,0 +1,52 @@
+<!-- drawable/iphone_14_1.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="394dp"
+    android:height="853dp"
+    android:viewportWidth="394"
+    android:viewportHeight="853"
+    >
+    <group>
+        <clip-path
+            android:pathData="M0.5 0.5H393.5V852.5H0.5V0.5Z"
+            />
+        <group
+            android:translateX="1"
+            android:translateY="0"
+            android:pivotX="197"
+            android:pivotY="426.5"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:rotation="90"
+            >
+            <path
+                android:pathData="M0.5 0.5V852.5H393.5V0.5"
+                >
+                <aapt:attr name="android:fillColor">
+                    <gradient
+                        android:type="linear"
+                        android:startX="98.75"
+                        android:startY="426.5"
+                        android:endX="295.25"
+                        android:endY="426.5"
+                        >
+                        <item
+                            android:color="#299332"
+                            android:offset="0"
+                            />
+                        <item
+                            android:color="#0D2D0F"
+                            android:offset="1"
+                            />
+                    </gradient>
+                </aapt:attr>
+            </path>
+        </group>
+    </group>
+    <path
+        android:pathData="M0.5 0.5H393.5V852.5H0.5V0.5Z"
+        android:strokeWidth="1"
+        android:strokeColor="#000000"
+        />
+</vector>
