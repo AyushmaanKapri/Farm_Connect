@@ -9,7 +9,6 @@
     android:elevation="4dp">
 
 
-    <!-- Auto layout, variables, and unit scale are not yet supported -->
     <TextView
         android:id="@+id/farmconnect"
         android:layout_width="400dp"
@@ -17,10 +16,23 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="355dp"
         android:gravity="center_horizontal|top"
         android:text="@string/farmconnect"
+        android:textAppearance="@style/farmconnect" />
+
+    <TextView
+        android:id="@+id/F2"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="419dp"
+        android:gravity="center_horizontal|top"
+        android:text="From Farm To Plate"
         android:textAppearance="@style/farmconnect"
-        />
+        android:textSize="23dp" />
+
 </RelativeLayout>
 
