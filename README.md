@@ -73,8 +73,10 @@ Install Android Studio Ladybug | 2024.2.1 Patch 1
 Install Java Development Kit (JDK) 11 or higher
 Set up an Android device or emulator with API level 24 or higher
 Steps
+
 Clone the repository:
 git clone https://github.com/AyushmaanKapri/Farm_Connect.git
+
 Open Android Studio Ladybug
 Select "Open an Existing Project"
 Navigate to the cloned directory and click "OK"
