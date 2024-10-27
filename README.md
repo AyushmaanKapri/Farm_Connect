@@ -74,4 +74,5 @@ Install Java Development Kit (JDK) 11 or higher
 Set up an Android device or emulator with API level 24 or higher
 Steps
 Clone the repository:
-git clone 
+git clone https://github.com/AyushmaanKapri/Farm_Connect.git
+
