@@ -94,5 +94,6 @@ Wait for the app to build and install on your device
 Release Build
 Open terminal in project root
 Execute:
+
 ./gradlew assembleRelease
 Find the APK in app/build/outputs/apk/release/
