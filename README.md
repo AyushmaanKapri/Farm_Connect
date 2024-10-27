@@ -75,4 +75,22 @@ Set up an Android device or emulator with API level 24 or higher
 Steps
 Clone the repository:
 git clone https://github.com/AyushmaanKapri/Farm_Connect.git
+Open Android Studio Ladybug
+Select "Open an Existing Project"
+Navigate to the cloned directory and click "OK"
+Wait for Gradle sync to complete
 
+### Configuration
+Create a local.properties file in the project root directory
+Add the following properties:
+sdk.dir=YOUR_ANDROID_SDK_PATH
+
+### Debug Build
+Select your target device (emulator or physical device running Android 7.0 or higher)
+Click the "Run" button (green play icon) or press Shift + F10
+Wait for the app to build and install on your device
+Release Build
+Open terminal in project root
+Execute:
+./gradlew assembleRelease
+Find the APK in app/build/outputs/apk/release/
