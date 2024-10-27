@@ -66,3 +66,12 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }
+
+Installation and Setup 🚀
+Prerequisites
+Install Android Studio Ladybug | 2024.2.1 Patch 1
+Install Java Development Kit (JDK) 11 or higher
+Set up an Android device or emulator with API level 24 or higher
+Steps
+Clone the repository:
+git clone 
